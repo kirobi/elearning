@@ -1,0 +1,43 @@
+
+
+#print
+{
+font-family : Arial, sans-serif;
+font-size:14px;
+margin:0 auto;
+}
+.total{margin-right:300px;}
+.date{font-family:arial;font-size:14px;}
+.printtitle { color:#153E7E; font-family:arial; font-size:25px; font-weight:bold;}
+/* inventory table */
+
+table.inventory_table{
+	font-family:sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+	width:775px;
+}
+table.inventory_table th {
+	background-image:url(image/header.png);
+	color:#fff;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.inventory_table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #a9c6c9;
+	text-align:center;
+}
+.oddrowcolor{
+	background-color:#E0FFFF;
+}
+.evenrowcolor{
+	background-color:#c9e7e9;
+}
